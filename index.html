@@ -12,19 +12,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: '茕茕孑立 遥遥无期',
+      repo: 'http://github.com/xty136694120/docsfile',
+	  homepage: 'README.md',
 	  coverpage: true,
-	  auto2top: true,//切换页面后是否自动跳转到页面顶部
+      loadSidebar: true,
+	  loadNavbar: true,
+      auto2top: true,//切换页面后是否自动跳转到页面顶部
        //全文搜索
-       search: {
+      search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto',
         placeholder: '搜索',
         noData: '找不到结果',
         // 搜索标题的最大程级, 1 - 6
         depth: 3,
-      }
+      },
     }
   </script>
   <!-- Docsify v4 -->
